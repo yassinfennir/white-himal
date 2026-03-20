@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>White Himal — 01300 Vantaa</title>
+<meta name="description" content="White Himal — Nauti herkullisesta ruoasta viihtyisassa ymparistossa. 01300 Vantaa.">
+<meta name="keywords" content="White Himal, 01300 Vantaa, ravintola 01300 Vantaa, ruoka 01300 Vantaa, lounas 01300 Vantaa, a la carte 01300 Vantaa">
+<meta property="og:title" content="White Himal — 01300 Vantaa">
+<meta property="og:description" content="White Himal — Nauti herkullisesta ruoasta viihtyisassa ymparistossa. 01300 Vantaa.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/lk033cp84b4cwk4404.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="White Himal — 01300 Vantaa">
+<meta name="twitter:description" content="White Himal — Nauti herkullisesta ruoasta viihtyisassa ymparistossa. 01300 Vantaa.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://yassinfennir.github.io/white-himal/">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='20' width='100' height='100' fill='#C2410C'/><text x='50' y='68' text-anchor='middle' fill='white' font-size='50' font-family='Arial' font-weight='bold'>W</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "White Himal",
+  "description": "White Himal — Nauti herkullisesta ruoasta viihtyisassa ymparistossa. 01300 Vantaa.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Talvikkitie 37",
+    "addressLocality": "01300 Vantaa",
+    "addressCountry": "FI"
+  },
+  "telephone": "050 3541028",
+  "email": "info@himal.fi",
+  "url": "https://yassinfennir.github.io/white-himal/",
+  "image": "https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/lk033cp84b4cwk4404.jpg",
+  "priceRange": "€€",
+  "openingHours": "Ma-Pe 11-22, La-Su 12-22"
+}
+</script>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --primary:#C2410C;
+  --primary-dark:#a42300;
+  --accent:#d65520;
+  --bg:#06060b;
+  --surface:#0c0c15;
+  --surface-2:#111119;
+  --surface-3:#16161f;
+  --text:#f0f0f8;
+  --muted:#b0b0c8;
+  --border:rgba(255,255,255,.06);
+  --glass:rgba(255,255,255,.025);
+  --glass-border:rgba(255,255,255,.07);
+  --radius:20px;
+  --heading:'Poppins',sans-serif;
+  --body:'DM Sans',sans-serif;
+  --glow:#C2410C20;
+  --glow-strong:#C2410C40;
+  --glow-mega:#C2410C60;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--text);background:var(--bg);line-height:1.7;overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+a{color:var(--primary);text-decoration:none;transition:all .3s}
+h1,h2,h3,h4{font-family:var(--heading);letter-spacing:-.03em;color:#fff}
+img{max-width:100%;display:block}
+::selection{background:var(--primary);color:#fff}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--primary);border-radius:10px}
+
+/* PRELOADER */
+.preloader{position:fixed;inset:0;background:var(--bg);z-index:99999;display:flex;align-items:center;justify-content:center;
+  flex-direction:column;gap:24px;transition:opacity .6s,visibility .6s}
+.preloader.done{opacity:0;visibility:hidden;pointer-events:none}
+.preloader-logo{width:100px;height:100px;display:flex;align-items:center;justify-content:center;
+  animation:preloaderPulse 1.2s infinite;background:none;border-radius:0;padding:0;
+  border:none;box-shadow:none}
+.preloader-logo img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 4px 20px rgba(255,255,255,.3))}
+.preloader-logo span{font-family:var(--heading);font-size:32px;font-weight:900;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.preloader-bar{width:120px;height:2px;background:var(--border);border-radius:4px;overflow:hidden}
+.preloader-bar span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--primary),var(--accent));
+  border-radius:4px;animation:preloaderBar 1.5s ease-out forwards}
+@keyframes preloaderPulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.05);opacity:.7}}
+@keyframes preloaderBar{0%{width:0}100%{width:100%}}
+
+/* SCROLL PROGRESS */
+.scroll-progress{position:fixed;top:0;left:0;height:2px;background:linear-gradient(90deg,var(--primary),var(--accent));
+  z-index:10001;transition:width .1s;width:0;box-shadow:0 0 10px var(--glow-strong)}
+
+/* CURSOR GLOW */
+.cursor-glow{position:fixed;width:300px;height:300px;border-radius:50%;pointer-events:none;z-index:9998;
+  background:radial-gradient(circle,var(--glow) 0%,transparent 70%);
+  transform:translate(-50%,-50%);transition:opacity .3s;opacity:0}
+body:hover .cursor-glow{opacity:1}
+
+/* NOISE TEXTURE */
+body::before{content:'';position:fixed;inset:0;z-index:9997;pointer-events:none;opacity:.015;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  background-repeat:repeat;background-size:128px 128px}
+
+/* ANIMATIONS */
+.reveal{opacity:0;transform:translateY(40px);transition:all .8s cubic-bezier(.16,1,.3,1)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-left{opacity:0;transform:translateX(-40px);transition:all .8s cubic-bezier(.16,1,.3,1)}
+.reveal-left.visible{opacity:1;transform:translateX(0)}
+.reveal-right{opacity:0;transform:translateX(40px);transition:all .8s cubic-bezier(.16,1,.3,1)}
+.reveal-right.visible{opacity:1;transform:translateX(0)}
+.reveal-scale{opacity:0;transform:scale(.9);transition:all .8s cubic-bezier(.16,1,.3,1)}
+.reveal-scale.visible{opacity:1;transform:scale(1)}
+.stagger-1{transition-delay:.05s}.stagger-2{transition-delay:.1s}.stagger-3{transition-delay:.15s}
+.stagger-4{transition-delay:.2s}.stagger-5{transition-delay:.25s}.stagger-6{transition-delay:.3s}
+@keyframes fadeInUp{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:translateY(0)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+@keyframes glow{0%,100%{box-shadow:0 0 20px var(--glow)}50%{box-shadow:0 0 50px var(--glow-strong)}}
+@keyframes kenburns{0%{transform:scale(1) translate(0,0)}100%{transform:scale(1.12) translate(-1%,-1%)}}
+@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+@keyframes rotate{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes breathe{0%,100%{opacity:.03}50%{opacity:.07}}
+@keyframes gradientMove{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+@keyframes borderGlow{0%,100%{border-color:var(--border)}50%{border-color:var(--primary)}}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+@keyframes orbFloat1{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(60px,-40px) scale(1.1)}50%{transform:translate(-30px,-80px) scale(.95)}75%{transform:translate(-60px,-20px) scale(1.05)}}
+@keyframes orbFloat2{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(-50px,30px) scale(.9)}50%{transform:translate(40px,60px) scale(1.1)}75%{transform:translate(70px,-10px) scale(.95)}}
+
+/* LUCIDE */
+[data-lucide]{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0 24px;transition:all .5s cubic-bezier(.16,1,.3,1)}
+nav.scrolled{background:rgba(6,6,11,.88);backdrop-filter:blur(30px);-webkit-backdrop-filter:blur(30px);
+  border-bottom:1px solid var(--border);box-shadow:0 4px 30px rgba(0,0,0,.3)}
+.nav-inner{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;height:80px}
+.nav-logo{font-family:var(--heading);font-weight:800;font-size:20px;letter-spacing:-.03em;color:#fff;
+  display:flex;align-items:center;gap:14px;transition:all .3s}
+.nav-logo:hover{opacity:.85}
+.nav-logo-name{font-size:20px;font-weight:800;color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.5);white-space:nowrap}
+.nav-logo-icon{width:64px;height:64px;border-radius:0;background:none;
+  display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:900;color:#fff;overflow:visible;
+  border:none;box-shadow:none;padding:0}
+.nav-logo-icon img{width:100%;height:100%;object-fit:contain;filter:brightness(1.5) drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.nav-links{display:flex;gap:32px;align-items:center}
+.nav-links a{color:var(--muted);font-size:14px;font-weight:500;transition:all .3s;position:relative}
+.nav-links a:hover{color:#fff}
+.nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;
+  background:linear-gradient(90deg,var(--primary),var(--accent));transition:width .3s;border-radius:2px}
+.nav-links a:hover::after{width:100%}
+.nav-cta{background:linear-gradient(135deg,var(--primary),var(--accent))!important;color:#fff!important;
+  padding:10px 28px;border-radius:50px;font-weight:600;font-size:13px;letter-spacing:.02em;border:none;
+  box-shadow:0 4px 20px var(--glow);position:relative;overflow:hidden}
+.nav-cta::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,transparent 0%,rgba(255,255,255,.2) 50%,transparent 100%);
+  transform:translateX(-100%);transition:transform .5s}
+.nav-cta:hover::before{transform:translateX(100%)}
+.nav-cta:hover{transform:translateY(-2px);box-shadow:0 8px 32px var(--glow-strong)}
+.nav-cta::after{display:none!important}
+
+/* HAMBURGER */
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;z-index:1100;padding:4px}
+.hamburger span{width:24px;height:2px;background:#fff;transition:all .3s;border-radius:2px}
+.hamburger.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+.hamburger.active span:nth-child(2){opacity:0}
+.hamburger.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+.mobile-menu{display:none;position:fixed;inset:0;background:rgba(6,6,11,.98);z-index:1050;
+  flex-direction:column;align-items:center;justify-content:center;gap:28px;backdrop-filter:blur(30px)}
+.mobile-menu.open{display:flex}
+.mobile-menu a{color:#fff;font-size:22px;font-family:var(--heading);font-weight:600;opacity:0;transform:translateY(20px)}
+.mobile-menu.open a{animation:fadeInUp .5s forwards}
+.mobile-menu.open a:nth-child(2){animation-delay:.05s}
+.mobile-menu.open a:nth-child(3){animation-delay:.1s}
+.mobile-menu.open a:nth-child(4){animation-delay:.15s}
+.mobile-menu.open a:nth-child(5){animation-delay:.2s}
+
+/* HERO */
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;animation:kenburns 25s ease-in-out infinite alternate}
+.hero-overlay{position:absolute;inset:0;z-index:1;
+  background:linear-gradient(180deg,rgba(6,6,11,.9) 0%,rgba(6,6,11,.5) 35%,rgba(6,6,11,.7) 70%,rgba(6,6,11,.95) 100%)}
+.hero-overlay::after{content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,var(--primary-dark) 0%,transparent 50%);opacity:.15}
+/* Hero floating orbs */
+.hero-orb{position:absolute;border-radius:50%;z-index:1;filter:blur(80px);pointer-events:none}
+.hero-orb-1{width:400px;height:400px;background:var(--primary);opacity:.06;top:10%;left:-5%;animation:orbFloat1 20s ease-in-out infinite}
+.hero-orb-2{width:300px;height:300px;background:var(--accent);opacity:.04;bottom:10%;right:-5%;animation:orbFloat2 25s ease-in-out infinite}
+.hero-content{max-width:1200px;margin:0 auto;padding:160px 24px 120px;position:relative;z-index:2;
+  display:grid;grid-template-columns:1.2fr 1fr;gap:60px;align-items:center;color:#fff}
+.hero-tag{display:inline-flex;align-items:center;gap:8px;
+  background:rgba(255,255,255,.04);backdrop-filter:blur(20px);
+  padding:10px 22px;border-radius:50px;font-size:13px;font-weight:500;margin-bottom:28px;
+  border:1px solid var(--glass-border);animation:fadeInUp .6s .2s both}
+.hero-tag .dot{width:8px;height:8px;background:#4ade80;border-radius:50%;animation:pulse 2s infinite;
+  box-shadow:0 0 12px rgba(74,222,128,.5)}
+.hero h1{font-size:clamp(38px,5vw,72px);font-weight:800;line-height:1.05;margin-bottom:24px;
+  animation:fadeInUp .6s .3s both}
+.hero h1 span{background:linear-gradient(135deg,var(--primary),var(--accent));background-size:200% 200%;
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:gradientMove 4s ease infinite}
+.hero p{font-size:17px;color:var(--text);margin-bottom:40px;line-height:1.9;max-width:500px;animation:fadeInUp .6s .4s both}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap;animation:fadeInUp .6s .5s both}
+.btn{padding:16px 36px;border-radius:50px;font-weight:700;font-size:15px;cursor:pointer;transition:all .4s;
+  border:none;display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--body);
+  position:relative;overflow:hidden}
+.btn-primary{background:linear-gradient(135deg,var(--primary),var(--accent));color:#fff;
+  box-shadow:0 8px 32px var(--glow)}
+.btn-primary::before{content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,transparent 0%,rgba(255,255,255,.15) 50%,transparent 100%);
+  transform:translateX(-100%);transition:transform .6s}
+.btn-primary:hover::before{transform:translateX(100%)}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 16px 48px var(--glow-strong)}
+.btn-ghost{background:rgba(255,255,255,.04);color:#fff;border:1px solid var(--glass-border);
+  backdrop-filter:blur(10px)}
+.btn-ghost:hover{background:rgba(255,255,255,.1);transform:translateY(-2px);border-color:var(--primary)}
+.hero-right{display:flex;flex-direction:column;gap:16px;animation:fadeInUp .6s .6s both}
+.hero-glass{background:var(--glass);backdrop-filter:blur(20px);border:1px solid var(--glass-border);
+  border-radius:var(--radius);padding:28px;transition:all .5s cubic-bezier(.16,1,.3,1)}
+.hero-glass:hover{background:rgba(255,255,255,.06);transform:translateY(-8px) scale(1.02);
+  border-color:var(--primary);box-shadow:0 20px 60px var(--glow)}
+.hero-glass h3{font-size:16px;font-weight:700;margin-bottom:6px}
+.hero-glass p{font-size:14px;color:var(--muted);line-height:1.7}
+.hg-icon{width:48px;height:48px;border-radius:14px;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  display:flex;align-items:center;justify-content:center;margin-bottom:14px;color:#fff;
+  box-shadow:0 8px 24px var(--glow)}
+.hg-icon [data-lucide]{width:22px;height:22px;color:#fff}
+.scroll-hint{position:absolute;bottom:40px;left:50%;transform:translateX(-50%);z-index:5;
+  display:flex;flex-direction:column;align-items:center;gap:8px;animation:float 2s infinite}
+.scroll-hint .mouse{width:24px;height:38px;border:2px solid rgba(255,255,255,.15);border-radius:12px;position:relative}
+.scroll-hint .mouse::before{content:'';width:3px;height:8px;background:var(--primary);border-radius:2px;
+  position:absolute;top:6px;left:50%;transform:translateX(-50%);animation:pulse 1.5s infinite}
+.scroll-hint span{font-size:10px;color:var(--muted);letter-spacing:3px;text-transform:uppercase}
+
+/* TRUST MARQUEE */
+.trust-marquee{padding:18px 0;background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+  overflow:hidden;position:relative}
+.trust-marquee::before,.trust-marquee::after{content:'';position:absolute;top:0;bottom:0;width:100px;z-index:2}
+.trust-marquee::before{left:0;background:linear-gradient(90deg,var(--surface),transparent)}
+.trust-marquee::after{right:0;background:linear-gradient(-90deg,var(--surface),transparent)}
+.marquee-track{display:flex;gap:48px;animation:marquee 30s linear infinite;width:max-content}
+.marquee-item{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:13px;font-weight:500;
+  white-space:nowrap;letter-spacing:.02em}
+.marquee-item [data-lucide]{width:16px;height:16px;color:var(--primary)}
+
+/* STATS BAR */
+.stats-bar{padding:80px 24px;background:var(--bg);position:relative}
+.stats-bar::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at center,var(--glow) 0%,transparent 70%);pointer-events:none}
+.stats-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:32px;position:relative;z-index:1}
+.stat{text-align:center;padding:28px 16px;background:var(--glass);border:1px solid var(--border);border-radius:var(--radius);
+  transition:all .5s cubic-bezier(.16,1,.3,1)}
+.stat:hover{border-color:var(--primary);box-shadow:0 16px 48px var(--glow);transform:translateY(-6px)}
+.stat-num{font-size:clamp(36px,4vw,56px);font-weight:900;font-family:var(--heading);
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.stat-label{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin-top:8px}
+
+/* SECTION COMMON */
+.section-header{text-align:center;margin-bottom:72px}
+.section-eyebrow{color:var(--primary);font-weight:700;font-size:11px;letter-spacing:5px;text-transform:uppercase;margin-bottom:18px;
+  display:inline-flex;align-items:center;gap:14px}
+.section-eyebrow::before,.section-eyebrow::after{content:'';width:30px;height:1px;
+  background:linear-gradient(90deg,transparent,var(--primary))}
+.section-eyebrow::after{background:linear-gradient(-90deg,transparent,var(--primary))}
+.section-title{font-size:clamp(32px,3.8vw,54px);font-weight:800;margin-bottom:18px;
+  background:linear-gradient(135deg,#fff 0%,rgba(255,255,255,.65) 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.section-sub{color:var(--text);font-size:16px;max-width:560px;margin:0 auto;line-height:1.9}
+
+/* PHOTO BREAK */
+.photo-break{position:relative;height:400px;overflow:hidden}
+.photo-break img{width:100%;height:100%;object-fit:cover}
+.photo-break-overlay{position:absolute;inset:0;
+  background:linear-gradient(to right,var(--bg) 0%,transparent 30%,transparent 70%,var(--bg) 100%)}
+
+/* SERVICES */
+.services{padding:120px 24px;max-width:1200px;margin:0 auto}
+.srv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.srv-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;
+  transition:all .6s cubic-bezier(.16,1,.3,1);position:relative}
+.srv-card::before{content:'';position:absolute;inset:-1px;border-radius:var(--radius);
+  background:linear-gradient(135deg,var(--primary),var(--accent));z-index:-1;opacity:0;transition:opacity .4s}
+.srv-card:hover::before{opacity:1}
+.srv-card:hover{transform:translateY(-12px);
+  box-shadow:0 30px 80px -12px var(--glow-strong);border-color:transparent}
+.srv-card-img{width:100%;height:220px;overflow:hidden;position:relative}
+.srv-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.16,1,.3,1)}
+.srv-card:hover .srv-card-img img{transform:scale(1.12)}
+.srv-card-img::after{content:'';position:absolute;inset:0;
+  background:linear-gradient(to top,var(--surface) 0%,transparent 60%)}
+.srv-card-body{padding:24px 28px 32px}
+.srv-icon-wrap{width:52px;height:52px;border-radius:14px;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  display:flex;align-items:center;justify-content:center;margin-bottom:18px;
+  margin-top:-42px;position:relative;z-index:1;
+  box-shadow:0 8px 24px var(--glow)}
+.srv-icon-wrap [data-lucide]{width:24px;height:24px;color:#fff}
+.srv-name{font-weight:700;font-size:20px;margin-bottom:10px}
+.srv-desc{color:var(--text);font-size:14px;line-height:1.8}
+.srv-price{margin-top:18px;font-weight:800;font-size:26px;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+
+/* ABOUT */
+.about{padding:140px 24px;background:var(--surface);position:relative;overflow:hidden}
+.about-orb{position:absolute;width:500px;height:500px;border-radius:50%;
+  background:radial-gradient(circle,var(--primary) 0%,transparent 70%);opacity:.04;animation:breathe 8s infinite;
+  filter:blur(60px)}
+.about-orb-1{top:-200px;right:-100px}
+.about-orb-2{bottom:-200px;left:-100px;animation-delay:4s}
+.about-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1.2fr;gap:80px;align-items:center;
+  position:relative;z-index:1}
+.about-visual{position:relative}
+.about-img{width:100%;border-radius:24px;overflow:hidden;position:relative;
+  border:1px solid var(--border);box-shadow:0 40px 80px rgba(0,0,0,.4)}
+.about-img::before{content:'';position:absolute;inset:-2px;border-radius:26px;
+  background:linear-gradient(135deg,var(--primary),transparent,var(--accent));z-index:-1;opacity:.3}
+.about-img img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.about-badge{position:absolute;top:-20px;right:-20px;
+  background:var(--surface-2);border:1px solid var(--border);border-radius:18px;padding:22px 28px;
+  box-shadow:0 20px 60px rgba(0,0,0,.4);z-index:3;animation:float 4s infinite;
+  backdrop-filter:blur(20px)}
+.about-badge-num{font-size:32px;font-weight:900;font-family:var(--heading);
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.about-badge-label{font-size:12px;color:var(--muted);font-weight:500}
+.about-text h2{font-size:clamp(28px,3vw,42px);font-weight:800;margin-bottom:24px}
+.about-text p{color:var(--text);font-size:15px;margin-bottom:18px;line-height:1.9}
+.about-list{margin-top:32px;display:flex;flex-direction:column;gap:16px}
+.about-list-item{display:flex;align-items:center;gap:16px;font-size:15px;font-weight:500;color:#fff;
+  padding:14px 20px;background:var(--glass);border:1px solid var(--border);border-radius:14px;
+  transition:all .4s}
+.about-list-item:hover{border-color:var(--primary);background:rgba(255,255,255,.04);transform:translateX(8px)}
+.about-list-icon{width:42px;height:42px;border-radius:12px;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  box-shadow:0 4px 16px var(--glow)}
+.about-list-icon [data-lucide]{width:20px;height:20px;color:#fff}
+
+/* REVIEWS */
+.reviews{padding:120px 24px}
+.reviews-wrap{max-width:1200px;margin:0 auto}
+.rev-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px}
+.rev-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:40px;
+  transition:all .5s cubic-bezier(.16,1,.3,1);position:relative}
+.rev-card:hover{border-color:var(--primary);box-shadow:0 24px 64px var(--glow);transform:translateY(-8px)}
+.rev-card::before{content:'\201C';position:absolute;top:20px;right:28px;font-size:72px;
+  font-family:var(--heading);background:linear-gradient(135deg,var(--primary),var(--accent));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;opacity:.2;line-height:1}
+.rev-stars{display:flex;gap:3px;margin-bottom:18px}
+.rev-star{width:18px;height:18px;fill:#F59E0B}
+.rev-text{font-size:15px;color:var(--text);line-height:1.9;margin-bottom:28px;font-style:italic}
+.rev-author{display:flex;align-items:center;gap:14px}
+.rev-avatar{width:50px;height:50px;border-radius:50%;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:18px}
+.rev-info .rev-name{font-weight:700;font-size:15px;color:#fff}
+.rev-info .rev-role{font-size:12px;color:var(--muted)}
+
+/* HOURS */
+.hours{padding:100px 24px;background:var(--surface);position:relative;overflow:hidden;
+  border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.hours-inner{max-width:600px;margin:0 auto;text-align:center;position:relative;z-index:1}
+.hours h2{font-size:clamp(28px,3vw,36px);font-weight:800;margin-bottom:48px}
+.hours-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;max-width:420px;margin:0 auto}
+.h-day{font-weight:600;font-size:15px;padding:20px 0;border-bottom:1px solid var(--border);text-align:left;color:#fff}
+.h-time{font-size:15px;color:var(--muted);text-align:right;padding:20px 0;border-bottom:1px solid var(--border)}
+
+/* GALLERY */
+.gallery{padding:120px 24px}
+.gallery-wrap{max-width:1200px;margin:0 auto}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.gallery-item{position:relative;border-radius:var(--radius);overflow:hidden;aspect-ratio:4/3;cursor:pointer;
+  border:1px solid var(--border);transition:all .5s cubic-bezier(.16,1,.3,1)}
+.gallery-item:first-child{grid-column:span 2;aspect-ratio:16/9}
+.gallery-item:hover{border-color:var(--primary);box-shadow:0 16px 48px var(--glow)}
+.gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.16,1,.3,1)}
+.gallery-item:hover img{transform:scale(1.08)}
+.gallery-overlay{position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(6,6,11,.85) 0%,transparent 60%);
+  opacity:0;transition:opacity .4s;display:flex;align-items:flex-end;padding:24px}
+.gallery-item:hover .gallery-overlay{opacity:1}
+.gallery-overlay span{color:#fff;font-weight:600;font-size:14px}
+
+/* LIGHTBOX */
+.lightbox{position:fixed;inset:0;background:rgba(6,6,11,.95);z-index:10000;display:none;align-items:center;
+  justify-content:center;backdrop-filter:blur(20px);cursor:zoom-out}
+.lightbox.open{display:flex}
+.lightbox img{max-width:90vw;max-height:85vh;object-fit:contain;border-radius:12px;
+  box-shadow:0 40px 100px rgba(0,0,0,.5);animation:fadeInUp .4s}
+.lightbox-close{position:absolute;top:24px;right:24px;width:48px;height:48px;border-radius:50%;
+  background:rgba(255,255,255,.08);border:1px solid var(--border);color:#fff;font-size:24px;
+  display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .3s}
+.lightbox-close:hover{background:rgba(255,255,255,.15);transform:scale(1.1)}
+
+/* CTA */
+.cta-section{padding:140px 24px;text-align:center;position:relative;overflow:hidden}
+.cta-bg{position:absolute;inset:0}
+.cta-bg img{width:100%;height:100%;object-fit:cover}
+.cta-bg::after{content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,var(--bg) 0%,rgba(6,6,11,.8) 50%,var(--bg) 100%)}
+.cta-inner{position:relative;z-index:1;max-width:700px;margin:0 auto}
+.cta-inner h2{font-size:clamp(32px,4.5vw,52px);font-weight:800;margin-bottom:18px;
+  background:linear-gradient(135deg,#fff,rgba(255,255,255,.75));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.cta-inner p{font-size:17px;color:var(--text);margin-bottom:44px;line-height:1.8}
+.cta-inner .btn-primary{font-size:17px;padding:20px 52px;animation:glow 3s infinite}
+
+/* CONTACT */
+.contact{padding:120px 24px}
+.contact-wrap{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1.2fr 1fr;gap:60px;align-items:start}
+.contact-form{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:48px;
+  position:relative;overflow:hidden}
+.contact-form::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,var(--primary),var(--accent))}
+.contact-form h2{font-size:28px;font-weight:800;margin-bottom:8px}
+.contact-form p{color:var(--muted);font-size:14px;margin-bottom:36px}
+.form-group{margin-bottom:22px}
+.form-group label{display:block;font-weight:600;font-size:13px;margin-bottom:8px;color:var(--muted);letter-spacing:.04em}
+.form-group input,.form-group textarea{width:100%;padding:16px 20px;border:1px solid var(--border);border-radius:14px;
+  font-family:var(--body);font-size:15px;transition:all .3s;background:var(--surface-2);color:#fff}
+.form-group input:focus,.form-group textarea:focus{outline:none;border-color:var(--primary);
+  box-shadow:0 0 0 4px var(--glow);background:var(--surface-3)}
+.form-group textarea{resize:vertical;min-height:130px}
+.form-group input::placeholder,.form-group textarea::placeholder{color:var(--muted)}
+.form-submit{width:100%;padding:18px;border:none;border-radius:50px;
+  background:linear-gradient(135deg,var(--primary),var(--accent));color:#fff;
+  font-weight:700;font-size:16px;cursor:pointer;transition:all .4s;font-family:var(--body);
+  box-shadow:0 8px 24px var(--glow);position:relative;overflow:hidden}
+.form-submit::before{content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,transparent 0%,rgba(255,255,255,.15) 50%,transparent 100%);
+  transform:translateX(-100%);transition:transform .6s}
+.form-submit:hover::before{transform:translateX(100%)}
+.form-submit:hover{transform:translateY(-2px);box-shadow:0 16px 40px var(--glow-strong)}
+.contact-info{display:flex;flex-direction:column;gap:20px}
+.contact-info h2{font-size:28px;font-weight:800;margin-bottom:4px}
+.contact-info>p{color:var(--text);font-size:15px;line-height:1.8;margin-bottom:12px}
+.ci-card{display:flex;align-items:center;gap:16px;padding:22px 24px;
+  background:var(--surface);border:1px solid var(--border);border-radius:16px;transition:all .4s}
+.ci-card:hover{border-color:var(--primary);box-shadow:0 8px 32px var(--glow);transform:translateX(6px)}
+.ci-icon{width:50px;height:50px;border-radius:14px;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  box-shadow:0 4px 16px var(--glow)}
+.ci-icon [data-lucide]{width:22px;height:22px;color:#fff}
+.ci-text{font-size:14px}
+.ci-label{color:var(--muted);font-size:12px;font-weight:500;letter-spacing:.04em;text-transform:uppercase}
+.ci-value{font-weight:600;color:#fff;font-size:15px}
+
+/* MAP */
+.map-section{position:relative;height:400px;border-top:1px solid var(--border)}
+.map-section iframe{width:100%;height:100%;border:0;filter:brightness(.75) contrast(1.1) saturate(.7)}
+
+/* FOOTER */
+footer{padding:80px 24px 40px;background:var(--surface);border-top:1px solid var(--border)}
+.footer-inner{max-width:1100px;margin:0 auto}
+.footer-top{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:60px;margin-bottom:60px}
+.footer-brand .footer-logo{font-family:var(--heading);font-weight:800;font-size:22px;color:#fff;margin-bottom:12px;
+  display:flex;align-items:center;gap:10px}
+.footer-brand p{color:var(--muted);font-size:14px;line-height:1.8;max-width:300px}
+.footer-col h4{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--primary);margin-bottom:20px}
+.footer-col a{display:block;color:var(--muted);font-size:14px;margin-bottom:12px;transition:all .3s}
+.footer-col a:hover{color:#fff;padding-left:6px}
+.footer-social{display:flex;gap:12px;margin-top:24px}
+.footer-social a{width:40px;height:40px;border-radius:10px;
+  background:rgba(255,255,255,.03);border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;transition:all .4s}
+.footer-social a:hover{background:var(--primary);border-color:var(--primary);transform:translateY(-3px);
+  box-shadow:0 8px 24px var(--glow)}
+.footer-social a [data-lucide]{width:16px;height:16px;color:var(--muted)}
+.footer-social a:hover [data-lucide]{color:#fff}
+.footer-bottom{border-top:1px solid var(--border);padding-top:32px;
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+.footer-bottom p{color:var(--muted);font-size:13px}
+.footer-bottom a{color:var(--primary);font-weight:500}
+
+/* POWERED BY BADGE */
+.powered-by{display:inline-flex;align-items:center;gap:8px;
+  background:var(--glass);border:1px solid var(--glass-border);border-radius:50px;
+  padding:8px 18px;font-size:12px;color:var(--muted);backdrop-filter:blur(10px);transition:all .3s}
+.powered-by:hover{border-color:rgba(59,130,246,.3);box-shadow:0 4px 20px rgba(59,130,246,.1)}
+.powered-by img{width:18px;height:18px;object-fit:contain}
+.powered-by strong{color:#3b82f6;font-weight:600}
+
+/* WHATSAPP FLOAT */
+.wa-float{position:fixed;bottom:28px;right:28px;z-index:900;
+  width:62px;height:62px;border-radius:50%;
+  background:linear-gradient(135deg,#25D366,#128C7E);
+  display:flex;align-items:center;justify-content:center;cursor:pointer;
+  box-shadow:0 8px 32px rgba(37,211,102,.4);transition:all .4s;animation:float 3s infinite}
+.wa-float:hover{transform:scale(1.12);box-shadow:0 16px 48px rgba(37,211,102,.5)}
+.wa-float svg{width:28px;height:28px;fill:#fff}
+
+/* BACK TO TOP */
+.back-to-top{position:fixed;bottom:100px;right:30px;z-index:900;width:44px;height:44px;border-radius:50%;
+  background:var(--surface);border:1px solid var(--border);color:#fff;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;transition:all .4s;
+  box-shadow:0 4px 20px rgba(0,0,0,.3)}
+.back-to-top.visible{opacity:1;visibility:visible}
+.back-to-top:hover{background:var(--primary);border-color:var(--primary);transform:translateY(-3px);
+  box-shadow:0 8px 32px var(--glow)}
+.back-to-top [data-lucide]{width:20px;height:20px}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .nav-links{display:none}
+  .hamburger{display:flex}
+  .hero-content{grid-template-columns:1fr;text-align:center;padding:140px 24px 100px}
+  .hero p{margin:0 auto 40px}
+  .hero-btns{justify-content:center}
+  .hero-right{display:none}
+  .stats-inner{grid-template-columns:repeat(2,1fr)}
+  .about-inner{grid-template-columns:1fr}
+  .about-visual{order:-1}
+  .contact-wrap{grid-template-columns:1fr}
+  .footer-top{grid-template-columns:1fr;gap:40px}
+  .gallery-grid{grid-template-columns:repeat(2,1fr)}
+  .gallery-item:first-child{grid-column:span 2}
+  .srv-grid{grid-template-columns:1fr}
+  .rev-grid{grid-template-columns:1fr}
+  .cursor-glow{display:none}
+}
+@media(max-width:500px){
+  .stats-inner{grid-template-columns:repeat(2,1fr);gap:12px}
+  .stat{padding:20px 12px}
+  .stat-num{font-size:28px}
+  .gallery-grid{grid-template-columns:1fr}
+  .gallery-item:first-child{grid-column:span 1;aspect-ratio:4/3}
+  .hero h1{font-size:32px}
+  .footer-bottom{flex-direction:column;text-align:center}
+  .contact-form{padding:32px 24px}
+}
+</style>
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div class="preloader" id="preloader">
+  <div class="preloader-logo"></div>
+  <div class="preloader-bar"><span></span></div>
+</div>
+
+<!-- SCROLL PROGRESS -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- CURSOR GLOW -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <div class="nav-logo-icon"></div>
+      <span class="nav-logo-name">White Himal</span>
+    </a>
+    <div class="nav-links">
+      <a href="#palvelut">Palvelut</a>
+      <a href="#meista">Meista</a>
+      <a href="#galleria">Galleria</a>
+      <a href="#arvostelut">Arvostelut</a>
+      <a href="#yhteystiedot">Yhteystiedot</a>
+      <a href="tel:0503541028" class="nav-cta">Soita nyt</a>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#palvelut" onclick="toggleMenu()">Palvelut</a>
+  <a href="#meista" onclick="toggleMenu()">Meista</a>
+  <a href="#galleria" onclick="toggleMenu()">Galleria</a>
+  <a href="#arvostelut" onclick="toggleMenu()">Arvostelut</a>
+  <a href="#yhteystiedot" onclick="toggleMenu()">Yhteystiedot</a>
+  <a href="tel:0503541028" class="nav-cta" style="margin-top:20px" onclick="toggleMenu()">Soita nyt</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"><img src="https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/lk033cp84b4cwk4404.jpg" alt="White Himal" loading="eager"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-tag"><span class="dot"></span> Avoinna tanaan</div>
+      <h1>Tervetuloa nauttimaan <span>herkullisesta</span> ruoasta</h1>
+      <p>Tarjoamme tuoretta, laadukasta ruokaa rennossa ymparistossa. Meilla viihdyt niin arkena kuin viikonloppunakin.</p>
+      <div class="hero-btns">
+        <a href="tel:0503541028" class="btn btn-primary"><i data-lucide="phone" style="width:18px;height:18px"></i> Soita meille</a>
+        <a href="https://wa.me/358503541028?text=Hei!%20Otin%20yhteytta%20verkkosivujen%20kautta." target="_blank" class="btn btn-ghost"><i data-lucide="message-circle" style="width:18px;height:18px"></i> WhatsApp</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      
+      <div class="hero-glass"><div class="hg-icon"><i data-lucide="utensils"></i></div><h3>Tuoreet raaka-aineet</h3><p>Valmistamme kaiken tuoreista raaka-aineista paivittain.</p></div>
+      <div class="hero-glass"><div class="hg-icon"><i data-lucide="heart"></i></div><h3>Tehty rakkaudella</h3><p>Jokainen annos on valmistettu intohimolla ja ammattitaidolla.</p></div>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <div class="mouse"></div>
+    <span>Selaa alas</span>
+  </div>
+</section>
+
+<!-- TRUST MARQUEE -->
+<div class="trust-marquee">
+  <div class="marquee-track">
+    <div class="marquee-item"><i data-lucide="shield-check"></i> SSL-suojattu</div>
+    <div class="marquee-item"><i data-lucide="star"></i> 5/5 asiakastyytyvaisyys</div>
+    <div class="marquee-item"><i data-lucide="clock"></i> Nopea palvelu</div>
+    <div class="marquee-item"><i data-lucide="heart"></i> Ammattitaitoinen tiimi</div>
+    <div class="marquee-item"><i data-lucide="map-pin"></i> 01300 Vantaa</div>
+    <div class="marquee-item"><i data-lucide="phone"></i> 050 3541028</div>
+    <div class="marquee-item"><i data-lucide="award"></i> Luotettava kumppani</div>
+    <div class="marquee-item"><i data-lucide="check-circle"></i> GDPR-yhteensopiva</div>
+    <!-- Duplicate for seamless loop -->
+    <div class="marquee-item"><i data-lucide="shield-check"></i> SSL-suojattu</div>
+    <div class="marquee-item"><i data-lucide="star"></i> 5/5 asiakastyytyvaisyys</div>
+    <div class="marquee-item"><i data-lucide="clock"></i> Nopea palvelu</div>
+    <div class="marquee-item"><i data-lucide="heart"></i> Ammattitaitoinen tiimi</div>
+    <div class="marquee-item"><i data-lucide="map-pin"></i> 01300 Vantaa</div>
+    <div class="marquee-item"><i data-lucide="phone"></i> 050 3541028</div>
+    <div class="marquee-item"><i data-lucide="award"></i> Luotettava kumppani</div>
+    <div class="marquee-item"><i data-lucide="check-circle"></i> GDPR-yhteensopiva</div>
+  </div>
+</div>
+
+<!-- STATS -->
+<section class="stats-bar">
+  <div class="stats-inner">
+    
+    <div class="stat reveal"><div class="stat-num counter" data-target="500" data-suffix="+">500+</div><div class="stat-label">Tyytyvaista asiakasta</div></div>
+    <div class="stat reveal"><div class="stat-num counter" data-target="5" data-suffix="/5">5/5</div><div class="stat-label">Google-arvosana</div></div>
+    <div class="stat reveal"><div class="stat-num counter" data-target="10" data-suffix="+">10+</div><div class="stat-label">Vuotta kokemusta</div></div>
+    <div class="stat reveal"><div class="stat-num counter" data-target="100" data-suffix="%">100%</div><div class="stat-label">Suosittelee</div></div>
+  </div>
+</section>
+
+<!-- PHOTO BREAK -->
+<div class="photo-break"><img src="https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/ndck1uz0qrogg08wcgw.jpg" alt="White Himal" loading="lazy"><div class="photo-break-overlay"></div></div>
+
+<!-- SERVICES -->
+<section class="services" id="palvelut">
+  <div class="section-header reveal">
+    <div class="section-eyebrow">Palvelut</div>
+    <div class="section-title">Tarjontamme</div>
+    <div class="section-sub">Tuoreita raaka-aineita, huolellista valmistusta ja sydamellista palvelua.</div>
+  </div>
+  <div class="srv-grid">
+    
+    <div class="srv-card reveal">
+      <div class="srv-card-img"><img src="https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/ynce4endheokwogwwc.jpg" alt="Lounas" loading="lazy"></div>
+      <div class="srv-card-body">
+        <div class="srv-icon-wrap"><i data-lucide="coffee"></i></div>
+        <div class="srv-name">Lounas</div>
+        <div class="srv-desc">Monipuolinen ja tuore lounasvalikoimamme vaihtuu paivittain. Sisaltaa salaattibuffetin ja paivan paaruoan.</div>
+        <div class="srv-price">12-16 eur</div>
+      </div>
+    </div>
+
+    <div class="srv-card reveal">
+      <div class="srv-card-img"><img src="https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/4frfahp8mx6oc8g4os.jpg" alt="A la carte" loading="lazy"></div>
+      <div class="srv-card-body">
+        <div class="srv-icon-wrap"><i data-lucide="chef-hat"></i></div>
+        <div class="srv-name">A la carte</div>
+        <div class="srv-desc">Laaja valikoima huolellisesti valmistettuja annoksia parhaista raaka-aineista.</div>
+        <div class="srv-price">18-32 eur</div>
+      </div>
+    </div>
+
+    <div class="srv-card reveal">
+      <div class="srv-card-img"><img src="https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/n73ly1rszuskoccw4o.jpg" alt="Tilaisuudet" loading="lazy"></div>
+      <div class="srv-card-body">
+        <div class="srv-icon-wrap"><i data-lucide="users"></i></div>
+        <div class="srv-name">Tilaisuudet</div>
+        <div class="srv-desc">Jarjestamme yksityistilaisuuksia ja yritystapahtumia. Raataloimme menun toiveidenne mukaan.</div>
+        
+      </div>
+    </div>
+
+    <div class="srv-card reveal">
+      <div class="srv-card-img"><img src="https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/qqpwrdqd9jk80o0kww.jpg" alt="Nouto ja toimitus" loading="lazy"></div>
+      <div class="srv-card-body">
+        <div class="srv-icon-wrap"><i data-lucide="truck"></i></div>
+        <div class="srv-name">Nouto ja toimitus</div>
+        <div class="srv-desc">Tilaa suosikkiruokasi kotiin tai nouda ravintolastamme. Nopea tilaus puhelimitse.</div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="meista">
+  <div class="about-orb about-orb-1"></div>
+  <div class="about-orb about-orb-2"></div>
+  <div class="about-inner">
+    <div class="about-visual reveal-left">
+      <div class="about-img"><img src="https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/1rzv2bfmt1usswskc8.jpg" alt="White Himal" loading="lazy"></div>
+      <div class="about-badge">
+        <div class="about-badge-num">10+</div>
+        <div class="about-badge-label">Vuotta kokemusta</div>
+      </div>
+    </div>
+    <div class="about-text reveal-right">
+      <div class="section-eyebrow" style="text-align:left">Meista</div>
+      <h2>Tarinaamme</h2>
+      <p>Olemme intohimoisia ruoan valmistajia. Kaikki annoksemme valmistetaan tuoreista raaka-aineista paivittain.</p>
+      <p>Ravintolassamme yhdistyvat perinteiset reseptit ja moderni kokkitaito. Tervetuloa maistamaan erotusta!</p>
+      <div class="about-list">
+        <div class="about-list-item">
+          <div class="about-list-icon"><i data-lucide="check"></i></div>
+          Ammattitaitoinen tiimi
+        </div>
+        <div class="about-list-item">
+          <div class="about-list-icon"><i data-lucide="heart"></i></div>
+          Yksilollinen palvelu
+        </div>
+        <div class="about-list-item">
+          <div class="about-list-icon"><i data-lucide="award"></i></div>
+          Laadukkaat tuotteet
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="arvostelut">
+  <div class="reviews-wrap">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Arvostelut</div>
+      <div class="section-title">Mita asiakkaamme sanovat</div>
+      <div class="section-sub">Olemme ylpeita asiakkaidemme tyytyväisyydesta ja palautteesta.</div>
+    </div>
+    <div class="rev-grid">
+      
+    <div class="rev-card reveal">
+      <div class="rev-stars"><svg class="rev-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="rev-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="rev-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="rev-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="rev-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+      <div class="rev-text">"Erinomainen ruoka ja lamminhenkinen palvelu. Suosittelen lampimasti kaikille!"</div>
+      <div class="rev-author">
+        <div class="rev-avatar">M</div>
+        <div class="rev-info"><div class="rev-name">Maria K.</div><div class="rev-role">Asiakas</div></div>
+      </div>
+    </div>
+
+    <div class="rev-card reveal">
+      <div class="rev-stars"><svg class="rev-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="rev-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="rev-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="rev-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="rev-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+      <div class="rev-text">"Parasta lounasta kaupungissa. Tulemme aina uudestaan perheen kanssa."</div>
+      <div class="rev-author">
+        <div class="rev-avatar">J</div>
+        <div class="rev-info"><div class="rev-name">Jukka L.</div><div class="rev-role">Asiakas</div></div>
+      </div>
+    </div>
+
+    <div class="rev-card reveal">
+      <div class="rev-stars"><svg class="rev-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="rev-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="rev-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="rev-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="rev-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+      <div class="rev-text">"Annokset ovat runsaita ja maukkaita. Hinnat ovat kohtuullisia laadun huomioon ottaen."</div>
+      <div class="rev-author">
+        <div class="rev-avatar">A</div>
+        <div class="rev-info"><div class="rev-name">Anna S.</div><div class="rev-role">Asiakas</div></div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOURS -->
+<section class="hours">
+  <div class="hours-inner reveal">
+    <div class="section-eyebrow">Aukioloajat</div>
+    <h2>Milloin olemme avoinna</h2>
+    <div class="hours-grid">
+      <div class="h-day">Ma-To</div><div class="h-time">11:00-21:00</div>
+<div class="h-day">Pe</div><div class="h-time">11:00-22:00</div>
+<div class="h-day">La</div><div class="h-time">12:00-22:00</div>
+<div class="h-day">Su</div><div class="h-time">12:00-20:00</div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="galleria" style="background:var(--bg)">
+  <div class="gallery-wrap"><div class="section-header reveal"><div class="section-eyebrow">Galleria</div><div class="section-title">Kuvia meista</div></div><div class="gallery-grid">
+      <div class="gallery-item reveal"><img src="https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/bzpuz6opbbc4g08o8c.jpg" alt="White Himal" loading="lazy"><div class="gallery-overlay"><span>Tilat</span></div></div>
+      <div class="gallery-item reveal"><img src="https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/n73ly1rszuskoccw4o.jpg" alt="White Himal" loading="lazy"><div class="gallery-overlay"><span>Palvelumme</span></div></div>
+      <div class="gallery-item reveal"><img src="https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/lk033cp84b4cwk4404.jpg" alt="White Himal" loading="lazy"><div class="gallery-overlay"><span>Tiimimme</span></div></div>
+      <div class="gallery-item reveal"><img src="https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/ynce4endheokwogwwc.jpg" alt="White Himal" loading="lazy"><div class="gallery-overlay"><span>Tyomme</span></div></div>
+      <div class="gallery-item reveal"><img src="https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/4frfahp8mx6oc8g4os.jpg" alt="White Himal" loading="lazy"><div class="gallery-overlay"><span>Ymparisto</span></div></div>
+      <div class="gallery-item reveal"><img src="https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/n73ly1rszuskoccw4o.jpg" alt="White Himal" loading="lazy"><div class="gallery-overlay"><span>Laatu</span></div></div></div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-bg"><img src="https://finnapps5.fi/pizzaadmin/web_admin_common//himal/theme_gallary/ndck1uz0qrogg08wcgw.jpg" alt="White Himal" loading="lazy"></div>
+  <div class="cta-inner reveal">
+    <div class="section-eyebrow">Ota yhteytta</div>
+    <h2>Nalkaisena? Varaa poytasi nyt!</h2>
+    <p>Soita meille tai tule suoraan — lampimasti tervetuloa!</p>
+    <a href="tel:0503541028" class="btn btn-primary"><i data-lucide="phone" style="width:18px;height:18px"></i> Soita ja varaa</a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="yhteystiedot">
+  <div class="contact-wrap">
+    <div class="contact-form reveal-left">
+      <h2>Ota yhteytta</h2>
+      <p>Tayta lomake, niin palaamme asiaan mahdollisimman pian.</p>
+      <form action="https://formsubmit.co/info@himal.fi" method="POST">
+        <input type="hidden" name="_subject" value="Yhteydenotto: White Himal">
+        <input type="hidden" name="_captcha" value="false">
+        <div class="form-group">
+          <label>Nimi</label>
+          <input type="text" name="name" placeholder="Nimesi" required>
+        </div>
+        <div class="form-group">
+          <label>Sahkoposti</label>
+          <input type="email" name="email" placeholder="sahkoposti@esimerkki.fi" required>
+        </div>
+        <div class="form-group">
+          <label>Puhelin</label>
+          <input type="tel" name="phone" placeholder="040 1234567">
+        </div>
+        <div class="form-group">
+          <label>Viesti</label>
+          <textarea name="message" placeholder="Kirjoita viestisi tahan..." required></textarea>
+        </div>
+        <button type="submit" class="form-submit">Laheta viesti</button>
+      </form>
+    </div>
+    <div class="contact-info reveal-right">
+      <h2>Yhteystiedot</h2>
+      <p>Olemme tavoitettavissa usealla tavalla. Valitse sinulle sopivin vaihtoehto.</p>
+      <a href="tel:0503541028" class="ci-card">
+        <div class="ci-icon"><i data-lucide="phone"></i></div>
+        <div class="ci-text">
+          <div class="ci-label">Puhelin</div>
+          <div class="ci-value">050 3541028</div>
+        </div>
+      </a>
+      <a href="mailto:info@himal.fi" class="ci-card">
+        <div class="ci-icon"><i data-lucide="mail"></i></div>
+        <div class="ci-text">
+          <div class="ci-label">Sahkoposti</div>
+          <div class="ci-value">info@himal.fi</div>
+        </div>
+      </a>
+      <div class="ci-card">
+        <div class="ci-icon"><i data-lucide="map-pin"></i></div>
+        <div class="ci-text">
+          <div class="ci-label">Osoite</div>
+          <div class="ci-value">Talvikkitie 37, 01300 Vantaa, Suomi</div>
+        </div>
+      </div>
+      <div class="ci-card">
+        <div class="ci-icon"><i data-lucide="clock"></i></div>
+        <div class="ci-text">
+          <div class="ci-label">Aukioloajat</div>
+          <div class="ci-value">Ma-Pe 11-22, La-Su 12-22</div>
+        </div>
+      </div>
+      <div class="contact-social"><a href="#" title="Facebook"><i data-lucide="facebook"></i></a><a href="#" title="Instagram"><i data-lucide="instagram"></i></a></div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<div class="map-section"><iframe class="map" src="https://maps.google.com/maps?q=Talvikkitie%2037%2C%2001300%20Vantaa%2C%20Suomi&output=embed" allowfullscreen loading="lazy"></iframe></div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <div class="nav-logo-icon" style="width:36px;height:36px;font-size:16px"></div>
+          White Himal
+        </div>
+        <p>White Himal — Nauti herkullisesta ruoasta viihtyisassa ymparistossa. 01300 Vantaa.</p>
+        <div class="footer-social">
+          <a href="#" title="Facebook"><i data-lucide="facebook"></i></a><a href="#" title="Instagram"><i data-lucide="instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigointi</h4>
+        <a href="#palvelut">Palvelut</a>
+        <a href="#meista">Meista</a>
+        <a href="#galleria">Galleria</a>
+        <a href="#arvostelut">Arvostelut</a>
+        <a href="#yhteystiedot">Yhteystiedot</a>
+      </div>
+      <div class="footer-col">
+        <h4>Yhteystiedot</h4>
+        <a href="tel:0503541028">050 3541028</a>
+        <a href="mailto:info@himal.fi">info@himal.fi</a>
+        <a>Talvikkitie 37, 01300 Vantaa, Suomi</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 White Himal. Kaikki oikeudet pidatetaan.</p>
+      <div class="powered-by">
+        <img src="elfennir-logo.png" alt="El Fennir Agency">
+        Verkkosivut: <strong><a href="https://elfennir.com" target="_blank" style="color:#3b82f6">El Fennir Agency</a></strong>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/358503541028?text=Hei!%20Otin%20yhteytta%20verkkosivujen%20kautta." target="_blank" class="wa-float" title="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- BACK TO TOP -->
+<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+  <i data-lucide="chevron-up"></i>
+</button>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script>
+// Preloader
+window.addEventListener('load',()=>{
+  setTimeout(()=>document.getElementById('preloader').classList.add('done'),800);
+});
+
+// Scroll progress
+window.addEventListener('scroll',()=>{
+  const h=document.documentElement;
+  const pct=(h.scrollTop/(h.scrollHeight-h.clientHeight))*100;
+  document.getElementById('scrollProgress').style.width=pct+'%';
+});
+
+// Cursor glow
+const glow=document.getElementById('cursorGlow');
+if(window.innerWidth>900){
+  document.addEventListener('mousemove',e=>{
+    glow.style.left=e.clientX+'px';
+    glow.style.top=e.clientY+'px';
+  });
+}
+
+// Nav scroll
+window.addEventListener('scroll',()=>{
+  document.querySelector('nav').classList.toggle('scrolled',window.scrollY>60);
+  document.getElementById('backToTop').classList.toggle('visible',window.scrollY>600);
+});
+
+// Mobile menu
+function toggleMenu(){
+  document.querySelector('.hamburger').classList.toggle('active');
+  document.getElementById('mobileMenu').classList.toggle('open');
+  document.body.style.overflow=document.getElementById('mobileMenu').classList.contains('open')?'hidden':'';
+}
+
+// Reveal on scroll
+const revealEls=document.querySelectorAll('.reveal,.reveal-left,.reveal-right,.reveal-scale');
+const observer=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}})
+},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+revealEls.forEach(el=>observer.observe(el));
+
+// Counter animation
+function animateCounters(){
+  document.querySelectorAll('.counter').forEach(c=>{
+    const target=+c.dataset.target;const suffix=c.dataset.suffix||'';
+    let current=0;const increment=target/60;
+    const timer=setInterval(()=>{
+      current+=increment;
+      if(current>=target){current=target;clearInterval(timer)}
+      c.textContent=Math.ceil(current)+suffix;
+    },25);
+  });
+}
+const statsObs=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting){animateCounters();statsObs.unobserve(e.target)}})
+},{threshold:.3});
+const statsEl=document.querySelector('.stats-bar');
+if(statsEl) statsObs.observe(statsEl);
+
+// Smooth anchor
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    const t=document.querySelector(a.getAttribute('href'));
+    if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'})}
+  });
+});
+
+// Gallery lightbox
+function openLightbox(src){
+  document.getElementById('lightboxImg').src=src;
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeLightbox(){
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow='';
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox()});
+document.querySelectorAll('.gallery-item').forEach(item=>{
+  item.addEventListener('click',()=>{
+    const img=item.querySelector('img');
+    if(img) openLightbox(img.src);
+  });
+});
+
+// Lucide icons
+if(window.lucide) lucide.createIcons();
+</script>
+</body>
+</html>
